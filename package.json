@@ -1,0 +1,21 @@
+{
+  "name": "nightwatch_learn_from_scratch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "node nightwatch.conf.js",
+    "test": "./node_modules/.bin/nightwatch --env local",
+    "test_features": "nightwatch"
+  },
+  "dependencies": {
+    "nightwatch": "^0.9.9",
+    "mocha-nightwatch": "3.2.2",
+    "selenium-download": "^2.0.7",
+    "nightwatch-html-reporter": "0.3.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
